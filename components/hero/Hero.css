@@ -1,0 +1,23 @@
+.hero {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    /* align-items: center; */
+    background-image: url("./../../assets/bg-food.jpg");
+    background-size: cover;
+}
+
+.main-hero {
+    margin-top: 25vh;
+}
+
+.tagline {
+    font-size: 36px;
+    font-family: "Metropolis-regular";
+    color: white;
+}
+
+.tagline b {
+    font-family: "Metropolis-medium";
+}

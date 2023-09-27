@@ -1,0 +1,31 @@
+{
+    "About zomato" : {
+        "who we are" : "#",
+        "blog": "#",
+        "work with us": "#",
+        "investor relations": "#",
+        "report fraud": "#",
+        "press kit": "#",
+        "contact us": "#"
+    },
+    "zomaverse": {
+        "zomato": "#",
+        "blinkit": "#",
+        "feeding india": "#",
+        "hyperpure": "#",
+        "zomaland": "#"
+    },
+    "for restaurants": {
+        "partner with us": "#",
+        "apps for you": "#"
+    },
+    "for enterprises": {
+        "zomato for enterprise": "#"
+    },
+    "learn more": {
+        "privacy": "#",
+        "security": "#",
+        "terms": "#",
+        "sitemap": "#"
+    }
+}

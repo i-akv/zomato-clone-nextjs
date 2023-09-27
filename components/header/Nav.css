@@ -1,0 +1,22 @@
+nav{
+    display: flex;
+    color: white;
+    justify-content: space-between;
+}
+
+.left-nav{
+    font-size: 14px;
+    font-family: "Metropolis-medium";
+    
+}
+
+.right-nav{
+    display: flex;
+    gap: 2rem;
+    font-size: 18px;
+    font-family: "Metropolis-light";
+}
+
+.right-nav a:hover{
+    text-decoration: underline;
+}
