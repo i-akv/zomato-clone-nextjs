@@ -2,17 +2,18 @@ import {CiLocationOn, CiSearch} from 'react-icons/ci'
 
 const SearchBar = () => {
   return (
-    <div className='flex items-center justify-start bg-white mx-5 text-[2rem] gap-2 p-2 rounded-lg w-[80vw]'>
-        <CiLocationOn />
-        <select name="area" id="area" className='border-r-2 outline-none'>
-            <option value="area-a">area-a</option>
-            <option value="area-b">area-b</option>
-            <option value="area-c">area-c</option>
-            <option value="area-e">area-e</option>
-            <option value="area-f">area-f</option>
+    <div className='flex items-center justify-start bg-white mx-5gap-2 p-2 rounded-lg w-[80vw]'>
+        <CiLocationOn className='text-[2rem]' />
+        <select name="area" id="area" className='border-r-2 outline-none w-[40%] text-[.7rem] md:text-[1.2rem] pr-2 mr-1'>
+            <option value="RK Puram">RK Puram</option>
+            <option value="Hariom Nagar">Hariom Nagar</option>
+            <option value="Atul Vihar">Atul Vihar</option>
+            <option value="Mohammadpur">Mohammadpur</option>
+            <option value="Ambedkar Town">Ambedkar Town</option>
+            <option value="Dwarka">Dwarka</option>
         </select>
-        <CiSearch/>
-        <input type="text" className='text-sm w-full outline-none' placeholder="Search for restaurant, cuisine or a dish" />
+        <CiSearch  className='text-[2rem]'/>
+        <input type="text" className='text-sm w-full outline-none ml-1' placeholder="Search for restaurant, cuisine or a dish" />
     </div>
   )
 }

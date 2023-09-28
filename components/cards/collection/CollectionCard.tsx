@@ -7,8 +7,8 @@ const CollectionCard = (props: any) => {
         <Image src={props.img} alt="#" height={0} width={0} className="h-[15rem] w-[20rem]" />
         <div className="p-3">
 
-        <p className="title text-lg bold capitalize whitespace-nowrap">{props.title}</p>
-        <p className="subtitle text-sm capitalize flex items-center gap-1">{props.subtitle} <AiFillCaretRight/></p>
+        <p className="title text-[.9rem] md:text-lg bold capitalize whitespace-nowrap">{props.title}</p>
+        <p className="subtitle text-[.75rem] md:text-sm capitalize flex items-center gap-1">{props.subtitle} <AiFillCaretRight/></p>
         </div>
     </div>
   )
