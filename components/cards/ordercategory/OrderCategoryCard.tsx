@@ -3,7 +3,7 @@ import './OrderCategoryCard.css'
 
 const OrderCategoryCard = (props: any) => {
   return (
-    <div className="card flex flex-col rounded-xl overflow-hidden border-[1px] hover:shadow-xl ">
+    <div className={`${props.className} card flex flex-col rounded-xl overflow-hidden border-[1px] hover:shadow-xl`}>
         <Image src={props.img} alt="#" height={0} width={0} className="h-[10rem]" />
         <div className="p-3">
 

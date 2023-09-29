@@ -12,10 +12,10 @@ import ZomatoImg from '@/assets/zomato.png'
 const Footer = () => {
   return (
     <footer className='px-5 grid grid-cols-1'>
-        <div className="col-span-1 grid grid-cols-2  py-4 items-center ">
+        <div className="col-span-1 grid grid-cols-2 md:grid-cols-5 lg:grid-cols-10 py-4 items-center ">
 
-            <Image src={ZomatoImg} alt="ZOMATO" width={0} height={0} className='w-[75%] md:w-[35%]' />
-            <div className="country-lang flex gap-1 md:gap-3 justify-end">
+            <Image src={ZomatoImg} alt="ZOMATO" width={0} height={0} className='w-[75%] md:w-[35%] md:col-span-4 lg:col-span-7 ' />
+            <div className="country-lang grid grid-cols-2 lg:col-span-3 gap-1 md:gap-3 justify-end">
                 <CountrySelect />
                 <LanguageSelect />
             </div>
@@ -74,7 +74,7 @@ const Footer = () => {
         <hr className='py-2 mt-2' />
         <p className='capitalize bold flex items-center'>
             
-        This website is cloned to showcase developer skills, Copyright and Trademarks belongs to respectative Owners. If you have any issue regarding clone, Kindly contact me. <Link href="https://www.twitter.com/iakv_" target='_blank' className='text-[2rem]'><AiFillTwitterCircle /></Link>
+            This website is cloned to showcase developer skills, Copyright and Trademarks belongs to respectative Owners. If you have any issue regarding clone, Kindly contact me. <Link href="https://www.twitter.com/iakv_" target='_blank' className='text-[2rem]'><AiFillTwitterCircle /></Link>
         </p>
         </section>
     </footer>
